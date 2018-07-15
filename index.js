@@ -7,8 +7,10 @@ function updateDriverWithKeyAndValue(driver,key,value){
   
 }
 
-function destructivelyUpdateDriverWithKeyAndValue(Object,key,value){
-  Object{key]=value;
+function destructivelyUpdateDriverWithKeyAndValue(driver,key,value){
+  driver{key]=value;
+  
+  return 
 }
 
 function deleteFromDriverByKey(driver, key) {
