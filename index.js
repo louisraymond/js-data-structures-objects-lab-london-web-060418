@@ -13,7 +13,7 @@ function destructivelyUpdateDriverWithKeyAndValue(Object,key,value){
 
 function deleteFromDriverByKey(driver, key) {
   array=Object.assign{{},driver}
-  
+  delete newObj[key]
 }
 
 function destructivelyDeleteFromDriverByKey(){
